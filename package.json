@@ -19,6 +19,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/firebase": "^8.2.2",
+    "@sgratzl/chartjs-chart-boxplot": "^3.10.0",
     "chart.js": "^3.9.1",
     "core-js": "^3.25.3",
     "firebase": "^9.15.0",

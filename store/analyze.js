@@ -12,14 +12,13 @@ export const actions = {
     analyze(context, payload){
         context.commit('updateResult', '分析中')
         const axios = require('axios')
-        let apiUrl = 'https://asia-northeast1-yomeru-354309.cloudfunctions.net/scraping-test'
+        let apiUrl = 'https://scraping-euy6vi4i2a-an.a.run.app'
         axios.get(apiUrl
           ,{params:{
             keyword: "プログラミングスクール",
             url: "https://coeteco.jp/articles/10835"
           }})
               .then((res) => {
-                console.log("aaaa")
                 context.commit('updateResult', res.data)
               })
               .catch((e => {

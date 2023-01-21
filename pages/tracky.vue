@@ -19,7 +19,7 @@
 
 <script>
 const axios = require('axios')
-let url = 'https://asia-northeast1-yomeru-354309.cloudfunctions.net/scraping-test'
+let url = 'https://scraping-euy6vi4i2a-an.a.run.app'
 
 export default {
   async asyncData({params, error}){
